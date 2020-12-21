@@ -16,11 +16,18 @@ public class SmileyRunner {
 		frame.add(panel);
 		// 7. Set the Smiley class's color variable to Smiley.YELLOW (NOT a specific smiley object's!)
 		// Run it again; are your Smileys all yellow now? Also try changing them to red or green!
-		Smiley.YELLOW
+		
 		// 4. Make three Smiley objects and add them to your panel
-
+		Smiley smiley = new Smiley();
+		Smiley smiley2 = new Smiley();
+		Smiley smiley3 = new Smiley();
 		// 5. Pack your frame
-
+		panel.add(smiley);
+		panel.add(smiley2);
+		panel.add(smiley3);
+		
+		frame.pack();
 		// 6. Run the program and make sure you see three blue Smileys!
+		
 	}
 }
